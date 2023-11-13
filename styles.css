@@ -17,3 +17,11 @@ body {
     height: 700px;
     color: #fff;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+    margin: 20px;
+    padding: 20px;
+}
