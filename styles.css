@@ -6,3 +6,14 @@ body {
     background-color:rgba(94, 97, 93, 0.9);
     }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: none; 
+    border-radius: 30px;
+    background-color: rgba(127, 140, 141, 0.8);
+    width: 600px;
+    height: 700px;
+    color: #fff;
+}
