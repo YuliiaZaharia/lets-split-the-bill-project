@@ -15,7 +15,7 @@ body {
     background-color: rgba(127, 140, 141, 0.8);
     width: 600px;
     height: 700px;
-    color: #fff;
+    color: #F3F3F3;
 }
 
 form {
@@ -24,4 +24,31 @@ form {
     font-family: 'Merriweather', serif;
     margin: 20px;
     padding: 20px;
+    color: #F3F3F3;
 }
+
+h1 {
+    font-family: 'Merriweather', serif;
+    align-self: center;
+    color: #860A35;
+}
+
+input {
+    font-family: 'Merriweather', serif;
+    padding: 5px;
+    border: none;
+}
+
+#addTip {
+    background-color: #A3B763;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    font-family: 'Merriweather', serif;
+    color: #F3F3F3;
+}
+
+
+
+
+
