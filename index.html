@@ -21,7 +21,7 @@
 <input id="people" placeholder="How many people?">
 <p>💗 Did you like our service? 💗</p>
 
-<button id="addTip">Add a tip! </button><br>
+<button id="addTip">Add a tip! </button>
 <select id="tip">
 <option disabled>Select an option</option>
 <option>Wow! 30%💗</option>
@@ -29,7 +29,32 @@
 <option>It was OK. 10% 🙂</option>
 <option>No Tips 🤦‍♀️</option>
 </select>
+
+<button id="btn">Calculate</button>
 </form>
+
+<div id="showTotal">
+    <div id="billSplit">
+        <p>Bill</p>
+        <span>💲</span>
+        <span id="dividedBill"></span>
+        <span>per person</span>
+    </div>
+
+    <div id="billSplit">
+        <p>Tip</p>
+        <span>💲</span>
+        <span id="dividedTips"></span>
+        <span>per person</span>
+    </div>
+
+    <div id="BillSplit">
+        <p>Total</p>
+        <span>💲</span>
+        <span id="totalBill"></span>
+        <span>per person</span>
+    </div>
+</div>
 
     </div>
 
