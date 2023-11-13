@@ -42,22 +42,24 @@ input {
 }
 
 #addTip {
-    background-color: #A3B763;
+    background-color: #860A35;;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 7px;
     font-family: 'Merriweather', serif;
     color: #F3F3F3;
+    font-size: 15px;
 }
 
 #btn {
-    background-color: #860A35;
+    background-color: #A3B763;
     color: #F3F3F3;
     padding: 7px; 
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     margin-top: 10px;
     font-family: 'Merriweather', serif;
+    font-size: 15px;
 }
 
 #tip {
@@ -66,21 +68,26 @@ input {
     padding: 7px;
     background-color: #F3F3F3;
     color: rgba(94, 97, 93, 0.9);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #showTotal {
     display: flex;
+    justify-content: space-around;
 }
 
 #billSplit, #tipSplit, #totalSplit {
     font-family: 'Merriweather', serif; 
-    background-color: rgb(175, 38, 85, 0.8); 
+    background-color: rgb(175, 38, 85, 0.7); 
     border: 1px, solid black;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 20px;
-    padding: 25px;
+    padding: 20px;
     font-size: 15px;
+}
+
+#person {
+    font-size: 13px;
 }
 
 
