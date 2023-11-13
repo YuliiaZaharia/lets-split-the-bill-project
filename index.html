@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lets Split The Bill</title>
+    <title>Lets Split Our Bill</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,14 +15,12 @@
     <div class="container">
 
 <form>
-<h1>Let's Split The Bill!</h1>
-<p>Bill 💰</p>
-<span>💸
-<input id="bill" placeholder="What is the total amount of the bill?">
-</span>
+<h1>Let's Split Our Bill 💰</h1>
+<p>Bill 💸</p>
+<input id="bill" placeholder="Enter amount of the bill...">
 
-<p>👯 Number of people</p>
-<input id="people" placeholder="How many people?">
+<p>Besties 👯🏼</p>
+<input id="people" placeholder="Enter number of people...">
 <p>💗 Did you like our service? 💗</p>
 
 <button id="addTip">Add a tip!</button>
@@ -31,13 +29,14 @@
 <option>Wow! 30% 😍</option>
 <option>Good service! 20% 💜</option>
 <option>It was OK. 10% 🙂</option>
-<option>No Tips 🤦‍♀️</option>
+<option selected>No Tips 🤦‍♀️</option>
 </select>
 
-<button id="btn">Calculate</button>
+<button id="btn">Calculate!</button>
 </form>
 
 <div id="showTotal">
+
     <div id="billSplit">
         <p>Bill</p>
         <span>💲</span>
@@ -45,14 +44,14 @@
         <span>per person</span>
     </div>
 
-    <div id="billSplit">
+    <div id="tipSplit">
         <p>Tip</p>
         <span>💲</span>
         <span id="dividedTips"></span>
         <span>per person</span>
     </div>
 
-    <div id="BillSplit">
+    <div id="totalSplit">
         <p>Total</p>
         <span>💲</span>
         <span id="totalBill"></span>

@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color:rgba(94, 97, 93, 0.9);
+    background-color:rgba(94, 97, 93, 0.8);
     }
 
 .container {
@@ -13,8 +13,8 @@ body {
     border: none; 
     border-radius: 30px;
     background-color: rgba(127, 140, 141, 0.8);
-    width: 600px;
-    height: 700px;
+    width: 620px;
+    height: 710px;
     color: #F3F3F3;
 }
 
@@ -31,12 +31,14 @@ h1 {
     font-family: 'Merriweather', serif;
     align-self: center;
     color: #860A35;
+    font-size: 40px;
 }
 
 input {
     font-family: 'Merriweather', serif;
-    padding: 5px;
+    padding: 7px;
     border: none;
+    border-radius: 5px;
 }
 
 #addTip {
@@ -48,7 +50,38 @@ input {
     color: #F3F3F3;
 }
 
+#btn {
+    background-color: #860A35;
+    color: #F3F3F3;
+    padding: 7px; 
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Merriweather', serif;
+}
 
+#tip {
+    font-family: 'Merriweather', serif;
+    border: none;
+    padding: 7px;
+    background-color: #F3F3F3;
+    color: rgba(94, 97, 93, 0.9);
+    border-radius: 10px;
+}
+
+#showTotal {
+    display: flex;
+}
+
+#billSplit, #tipSplit, #totalSplit {
+    font-family: 'Merriweather', serif; 
+    background-color: rgb(175, 38, 85, 0.8); 
+    border: 1px, solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 25px;
+    font-size: 15px;
+}
 
 
 
