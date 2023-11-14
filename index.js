@@ -4,7 +4,7 @@ const buttonTip = document.querySelector("#addTip");
 buttonTip.addEventListener("click", showTip); 
 
 function showTip(e) {
-e.preventDefault;
+e.preventDefault();
 tip.style.display = "block"; 
 }
 
