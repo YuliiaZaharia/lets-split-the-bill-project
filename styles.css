@@ -99,5 +99,22 @@ input {
     color: rgba(94, 97, 93);
 }
 
-
-
+@media all and (max-width: 800px) {
+    h1 {
+    font-size: 40px;
+     }
+     .container {
+        width: 550px;
+        height: 700px;
+     }
+    }
+    
+    @media all and (max-width: 500px) {
+        h1 {
+        font-size: 35px;
+         }
+         .container {
+            width: 483px;
+            height: 700px;
+        }
+    }
