@@ -1,7 +1,7 @@
 const calculate = document.querySelector("#btn"); 
 calculate.addEventListener("click", calculateAmount);
-const addTip = document.querySelector("addTip"); 
-addTip.addEventListener("click", showTip); 
+const buttonTip = document.querySelector("#addTip"); 
+buttonTip.addEventListener("click", showTip); 
 
 function showTip(e) {
 e.preventDefault;
@@ -23,7 +23,7 @@ if (bill === "" || people === "" || people < 1) {
 }
 
 // How much 1 person paid
-let amountPerPerson = bill/people;
+let amountPerPerson = bill / people;
 
 // How much 1 person will pay tips
 let tipPerPerson = (bill * tip) / people; 
@@ -39,5 +39,5 @@ totalSum = totalSum.toFixed(2);
 // Showing results in app 
 document.querySelector("#dividedBill").textContent = amountPerPerson; 
 document.querySelector("#dividedTips").textContent = tipPerPerson;
-document.querySelector("totalBill").textContent = totalSum; 
+document.querySelector("#totalBill").textContent = totalSum; 
 }
