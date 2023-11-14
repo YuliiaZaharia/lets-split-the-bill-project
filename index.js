@@ -3,10 +3,10 @@ calculate.addEventListener("click", calculateAmount);
 const addTip = document.querySelector("addTip"); 
 addTip.addEventListener("click", showTip); 
 
-function showTip() {
-    
+function showTip(e) {
+e.preventDefault;
+tip.style.display = "block"; 
 }
-
 
 function calculateAmount(e) {
 e.preventDefault();
